@@ -22,9 +22,26 @@
 		58913CCF2E94109E00923539 /* project5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project5; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		58913CEE2E9411F200923539 /* Exceptions for "project5" folder in "project5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				folder1/File1.swift,
+				folder2/File2.swift,
+				folder3/File3.swift,
+				folder4/File4.swift,
+				folder5/File5.swift,
+			);
+			target = 58913CCE2E94109E00923539 /* project5 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		58913CD12E94109E00923539 /* project5 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				58913CEE2E9411F200923539 /* Exceptions for "project5" folder in "project5" target */,
+			);
 			path = project5;
 			sourceTree = "<group>";
 		};

@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Проект5, папка5, файл5")
 
